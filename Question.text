@@ -1,0 +1,65 @@
+🔹 Project 1: Terminal-Based Contact Management App
+✅ Functional Requirements:
+App must show a menu with:
+
+
+Add Contact
+
+View Contacts
+
+Exit
+
+
+Allow adding up to two contacts only (stored using two sets of individual variables).
+
+
+Each contact includes:
+
+
+Name
+
+Phone Number
+
+
+If 2 contacts are already saved, show a warning message when trying to add another.
+
+
+"View Contacts" should list the saved contacts with their name and phone.
+
+
+
+
+🔹 Project 2: Terminal-Based Quiz Application
+✅ Functional Requirements:
+App must show one question at a time, each with 3 options (a/b/c).
+
+
+Minimum 3 questions required.
+
+
+For each question:
+
+
+Take input from user
+
+
+Show whether the answer was correct or not
+
+
+At the end, display the final score (e.g., "You got 2 out of 3").
+
+
+🧪 Sample Concepts to Use
+fgets(STDIN) for input
+
+
+echo for output
+
+
+trim() for clean input like spaces
+
+
+if / else for checking answers or menu choices
+
+
+while(true) loop for menu systems
