@@ -31,6 +31,8 @@ while (true) {
                 $name2 = $name;
                 $phone2 = $phone;
                 echo "✅ Contact 2 saved.\n";
+            } else {
+                echo "You have a already added 2 Contact ";
             }
         }
     } elseif ($choice == "2") {
